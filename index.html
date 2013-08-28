@@ -25,7 +25,7 @@
 <link href="styles/icons.css"				rel="stylesheet" type="text/css">
 <link href="styles/coach.css"				rel="stylesheet" type="text/css">
 <link href="styles/retina.css" 				rel="stylesheet" type="text/css" media="only screen and (-webkit-min-device-pixel-ratio: 2)" />
-
+<link href="styles/options.css"             rel="stylesheet" type="text/css">
 
 <!--Page Scripts Load -->
 <script src="scripts/jquery.min.js"		 type="text/javascript"></script>	
@@ -93,57 +93,29 @@
             <div class="nav-item selected-nav-item">
                 <a href="index.html" class="nav-icon">
                 	<img src="images/misc/1.png" alt="img" width="30">
-                	HOMEPAGE
+                	HOME
                 </a>
             </div>
-            <div class="nav-item nav-coach no-border">
-                <a href="#" class="nav-icon">
-                	<img src="images/misc/2.png" alt="img" width="30">
-                	COACH
-                </a>
-            </div>
+            
             <div class="nav-item">
                 <a href="type.html" class="nav-icon">
                 	<img src="images/misc/3.png" alt="img" width="30">
-                	TYPE
+                	ABOUT US
                 </a>
             </div>
             <div class="nav-item no-border">
                 <a href="jquery.html" class="nav-icon">
-                	<img src="images/misc/4.png" alt="img" width="30">
-                	jQUERY
+                	<img src="images/misc/vcard.png" alt="img" width="30">
+                	REGISTER
                 </a>
             </div>
             <div class="nav-item">
                 <a href="other.html" class="nav-icon">
-                	<img src="images/misc/5.png" alt="img" width="30">
-                	OTHERS
+                	<img src="images/misc/locked.png" alt="img" width="30">
+                	LOGIN
                 </a>
             </div>
-            <div class="nav-item no-border">
-                <a href="gallery.html" class="nav-icon">
-                	<img src="images/misc/6.png" alt="img" width="30">
-                	GALLERY
-                </a>
-            </div>
-            <div class="nav-item">
-                <a href="foio.html" class="nav-icon">
-                	<img src="images/misc/7.png" alt="img" width="30">
-                	PORTFOLIO
-                </a>
-            </div>
-            <div class="nav-item no-border">
-                <a href="video.html" class="nav-icon">
-                	<img src="images/misc/8.png" alt="img" width="30">
-                	VIDEOS
-                </a>
-            </div>
-            <div class="nav-item">
-                <a href="blog.html" class="nav-icon">
-                	<img src="images/misc/9.png" alt="img" width="30">
-                	BLOG
-                </a>
-            </div>
+          
             <div class="nav-item no-border">
                 <a href="contact.html" class="nav-icon">
                 	<img src="images/misc/10.png" alt="img" width="30">
@@ -182,7 +154,7 @@
        
         <div class="page-header">
             <p class="logo">
-                <img src="images/misc/logo.png" width="78">
+                <img src="images/misc/logo.png" width="110">
             </p>
             <a href="#" class="deploy-sidebar"></a>        
         </div>
@@ -193,7 +165,7 @@
                     <img src="images/slider/0.jpg" alt="img"/>
                     <blockquote class="slider-caption">
                         <p class="slider-title">
-                            THE ONLY FLAT MOBILE PAGE
+                           <font color="#eebf00"><strong>Welcome to LogBook</strong></font>
                         </p>
                     </blockquote>
                 </div>
@@ -201,7 +173,14 @@
                     <img src="images/slider/1.jpg" alt="img"/>
                     <blockquote class="slider-caption">
                         <p class="slider-title">
-                            SIMPLE, CLEAN AND PROPORTIONATE
+                            <font color="#eebf00"><strong>Step 1: Register</strong></font>
+                        </p>
+                    </blockquote>
+                </div><div>
+                    <img src="images/slider/2.jpg" alt="img"/>
+                    <blockquote class="slider-caption">
+                        <p class="slider-title">
+                            <font color="#eebf00"><strong>Step 2: Log in</strong></font>
                         </p>
                     </blockquote>
                 </div>
@@ -209,7 +188,7 @@
                     <img src="images/slider/3.jpg" alt="img"/>
                     <blockquote class="slider-caption">
                         <p class="slider-title">
-                            FAST LOADING AND EASY TO USE!
+                            <font color="#eebf00"><strong>Step 3: Log your mileage</strong></font>
                         </p>
                     </blockquote>
                 </div>
@@ -219,88 +198,80 @@
         <div class="container no-bottom">
             <div class="heading">
                 <div class="heading-left">
-                    <em>a few words about</em>
-                    <h3>ABOUT OUR COMPANY</h3>
-                </div>
-                <div class="heading-right">
-                    <span class="icon icon-user1"></span>
-                </div>
-            </div>
-            <p class="paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipisicg elait, sed do eiusmod tempor incididunt ut labore et doloree magna aliqua. Ut enim ad minim veniam, quis nostrytud exercitation ullamco. 
-            </p>
+                <div class="postcontent">
+                    <h1 class="title"><span>Register here and start saving</span></h1>
 
-            <div class="column">
-                <img class="column-icon" src="images/icons-large/icon6_402x.png" alt="img">
-                <h5 class="uppercase">ON epsilon framework!</h5>
-                <p class="no-bottom">Fast, clean, lean, solid, and created for most devices!! </p> 
-            </div> 
-            
-            <div class="column">
-                <img class="column-icon" src="images/icons-large/icon3_402x.png" alt="img">
-                <h5 class="uppercase">VERY WELL OPTIMIZED</h5>
-                <p class="no-bottom">Optimized dragging to a whole new level, on 99% of devices! </p> 
-            </div> 
-            
-            <div class="column">
-                <img class="column-icon" src="images/icons-large/icon4_402x.png" alt="img">
-                <h5 class="uppercase">PACKED AND DOCUMENTED</h5>
-                <p class="no-bottom">You'll understand our code, awesome docs for everything! </p> 
-            </div>             
-           
+          <form method="post" id="contatti" action="register.php">
+              <div id="contactform">
+                <div class="commentfield">
+                  <label for="author">Full Name <small>(Required)</small></label> <input type="text" name="fullName" id="fullName" />
+                </div>
+                <div class="commentfield">
+                  <label for="email">Email <small>(Required)</small></label> <input type="text" name="email" id="email" />
+                </div>
+                <div class="commentfield">
+                  <label for="author">Car Make and Model <small>(Required)</small></label> <input type="text" name="model" id="model" />
+                </div>
+                <div class="commentfield">
+                  <label for="author">Model Year <small>(Required)</small></label> <input type="text" name="modelYear" id="modelYear" />
+                </div>
+                <div class="commentfield">
+                  <label for="author">Year Purchased <small>(Required)</small></label> <input type="text" name="yearPurchased" id="yearPurchased" />
+                </div>
+				 <div class="commentfield">
+                  <label for="author">Opening Kilometres at the beginning of the year: </label> <input type="text" name="openingKY" id="openingKY" />
+                </div>
+                <div class="commentfield">
+                  <label for="author">Financed With <small>(Required)</small></label> <input type="text" name="Financed" id="Financed" />
+                </div>
+                <div class="commentfield">
+                  <label for="author">Username <small>(Required)</small></label> <input type="text" name="Username" id="Username" />
+                </div>
+                <div class="commentfield">
+                  <label for="author">Password <small>(Required)</small></label> <input type="password" name="Password" id="Password" />
+                </div>
+				<input type="hidden" name="errorM" id="errorM" value="There was an error while sending your message." /> 
+				<input type="hidden" name="successM" id="successM" value="Email sent succesfully. We usually answer within 24 hours." /> 
+				<input type="hidden" name="mailto" id="mailto" value="info@logbookonline.co.za" />
+
+                <div class="contactbutton">
+                  <input type="submit" class="contact-button" name="submit" id="invia" value="Submit" /> 
+				  <input type="reset" class="contact-button" name="clear" value="Clear" />
+                </div><span id="result">There was an error while sending your message.</span> 
+				<span id="resultsuccess">Email sent succesfully. We usually answer within 24 hours.</span>
+              </div>
+            </form>
         </div>
-        
         <div class="decoration"></div>
     
         <div class="container no-bottom">
             <div class="heading">
                 <div class="heading-left">
-                    <em>recent stuff from</em>
-                    <h3>OUR PORTFOLIO</h3>
+                <div class="postcontent">
+                   <h1 class="title"><span>Please Login Here</span></h1>
+                 <form action="login.php" method="POST" id="contatti" >
+              <div id="contactform">
+                <div class="commentfield">
+                   <input id="user_login" name="user_login" type="text" class="input-block-level" autofocus placeholder="Username" required />
                 </div>
-                <div class="heading-right">
-                    <span class="icon icon-image2"></span>
+
+                <div class="commentfield">
+                  <input id="user_password" name="user_password" type="password" class="input-block-level" placeholder="Password" required />
                 </div>
-            </div>
-            <p>
-            	Projects can be be viewed on our <a href="gallery.html">gallery page</a>, where you can browser more projects and see them in a full page! Check out our gallery page!
-            </p>  
-             <ul class="gallery gallery-homepage">
-                <li>
-                    <a class="swipebox" href="images/gallery/full/1.jpg" title="An awesome gallery!">
-                        <img class="image-decoration" src="images/gallery/thumb/1t.jpg" alt="Image 001" />
-                    </a>
-                </li>
-                <li>
-                    <a class="swipebox" href="images/gallery/full/2.jpg" title="An awesome gallery!">
-                        <img class="image-decoration" src="images/gallery/thumb/2t.jpg" alt="Image 001" />
-                    </a>
-                </li>
-                <li>
-                    <a class="swipebox" href="images/gallery/full/3.jpg" title="An awesome gallery!">
-                        <img class="image-decoration" src="images/gallery/thumb/3t.jpg" alt="Image 001" />
-                    </a>
-                </li>
-                <li>
-                    <a class="swipebox" href="images/gallery/full/4.jpg" title="An awesome gallery!">
-                        <img class="image-decoration" src="images/gallery/thumb/4t.jpg" alt="Image 001" />
-                    </a>
-                </li>
-                <li>
-                    <a class="swipebox" href="images/gallery/full/5.jpg" title="An awesome gallery!">
-                        <img class="image-decoration" src="images/gallery/thumb/5t.jpg" alt="Image 001" />
-                    </a>
-                </li>
-                <li>
-                    <a class="swipebox" href="images/gallery/full/2.jpg" title="An awesome gallery!">
-                        <img class="image-decoration" src="images/gallery/thumb/2t.jpg" alt="Image 001" />
-                    </a>
-                </li>
-            </ul>  
+
+                
+				<input type="hidden" name="errorM" id="errorM" value="There was an error while sending your message." /> 
+				<input type="hidden" name="successM" id="successM" value="Email sent succesfully. We usually answer within 24 hours." /> 
+				<input type="hidden" name="mailto" id="mailto" value="Sharmaine@rightclickmedia.co.za" />
+
+                <div class="contactbutton">
+                  <input type="submit" class="contact-button" name="submit" id="login" value="Login" /> 
+				                
+          </form>
       
-        </div>
+        </div></div>
         <div class="decoration"></div>
-		<p class="center-text copyright no-bottom">COPYRIGHT 2013. ALL RIGHTS RESERVED</p> 
+		<p class="center-text copyright no-bottom">WEBIMPROVE COPYRIGHT 2013. ALL RIGHTS RESERVED</p> 
     </div> 
     <div class="footer">
         <div class="footer-shortcuts">

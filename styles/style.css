@@ -6,7 +6,17 @@
 }
 
 body{
-	background-color:#282c33;
+	background:#fff  url(http://curvey.premiumcoding.com/wp-content/themes/fashy/images/bg/woodBackgroundPattern.jpg) repeat 0 0;
+
+	color:#24242b;
+
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+
+	font-size: 13px;
+
+	line-height: 1.65em;
+
+	letter-spacing: normal;
 }
 
 .page-header{
@@ -22,9 +32,9 @@ body{
 
 
 .logo{
-	width:78px;
+	width:110px;
 	float:right;
-	margin-top:22px;
+	margin-top:10px;
 	margin-right:20px;
 }
 

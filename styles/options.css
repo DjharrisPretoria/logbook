@@ -1,0 +1,412 @@
+::selection { background: #eebf00; color: #fff; text-shadow: none; }
+
+body {	 
+
+	 background:#fff  url(http://curvey.premiumcoding.com/wp-content/themes/fashy/images/bg/woodBackgroundPattern.jpg) repeat 0 0;
+
+	color:#24242b;
+
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+
+	font-size: 13px;
+
+	line-height: 1.65em;
+
+	letter-spacing: normal;
+
+}
+
+.authorp.port , .authorp.port , .authorp.port
+
+{color:#24242b !important;}
+
+
+
+h1,h2,h3,h4,h5,h6{
+
+	font-family: Oswald !important;
+
+	line-height: 110%;
+
+}
+
+
+
+h1 { 	
+
+	color:#1e1e20;
+
+	font-size: 28px !important;
+
+	}
+
+	
+
+h2 { 	
+
+	color:#1e1e20;
+
+	font-size: 24px !important;
+
+	}
+
+
+
+h3 { 	
+
+	color:#1e1e20;
+
+	font-size: 18px !important;
+
+	}
+
+
+
+h4 { 	
+
+	color:#1e1e20;
+
+	font-size: 16px !important;
+
+	}	
+
+	
+
+h5 { 	
+
+	color:#1e1e20;
+
+	font-size: 14px !important;
+
+	}	
+
+
+
+h6 { 	
+
+	color:#1e1e20;
+
+	font-size: 12px !important;
+
+	}		
+
+
+
+/* ***********************
+
+--------------------------------------
+
+------------NIVO SLIDER----------
+
+--------------------------------------
+
+*********************** */
+
+
+
+.nivo-caption, .ei-title h2, .ei-title h3  { 
+
+	background-image: url(images/mainContentPattern.png);
+
+	position:absolute; 
+
+	margin-left:-35px;
+
+	color: #1e1e20; 
+
+	font-size: 36px !important;
+
+	text-shadow:0 1px 0 rgba(255,255,255,0.5);
+
+	background-color: #eebf00; 
+
+	background-color: rgba(238,191,0,0.8);
+
+	border:1px solid #eebf00; 
+
+	font-family: Oswald !important;
+
+	letter-spacing: normal;
+
+	padding:5px;
+
+	z-index:99;
+
+	top:35px;
+
+}
+
+.ei-title h2  {color: #1e1e20;font-size: 36px !important;padding:12px 50px 15px 50px;}
+
+.ei-title h3  {color: #eebf00; border:none;background:none;top:120px; font-size: 24px !important;padding:12px 50px 15px 50px;text-shadow: 1px 1px 0px black;}
+
+
+
+	
+
+
+
+
+
+
+
+/* ***********************
+
+--------------------------------------
+
+------------ELEMENTS WITH MAIN COLOR + BACKGROUND PATTERN----------
+
+--------------------------------------
+
+*********************** */
+
+.portfolio #remove, .item, .item2, .item4, .reply a, .homeRacent .one_fifth, .homeBoxLeft h2, .homewrap .socialsingle, .homesingleleft  h1, .homesingleright  h1, .homeBox .one_half:hover a,
+
+.projectdetails h1, .projectdetails .socialsingle, table th, .homewrap .catlinkhover, .homewrap .catlink:hover, .wp-pagenavi a:hover, .wp-pagenavi span.current, .widget h3, .gototop, 
+
+.postcontent h1 span, .blogpostcategory h2 a, .ei-slider-thumbs li.ei-slider-element, .contact_mail, .contact_tel_local, .contact_tel_mob, .contact_msn, .contact_vcard
+
+	{background:#eebf00;  background-image: url(images/mainContentPattern.png);}
+
+
+
+/* ***********************
+
+--------------------------------------
+
+------------ELEMENTS WITH MAIN COLOR (hover effects, text color,...)----------
+
+--------------------------------------
+
+*********************** */
+
+a:hover, .more-link:hover, .footer_widget  ul li a:hover, .homeBox .one_third a, .tags span a:hover, 
+
+.menu li a:hover strong,.menu li a:hover, .blogpost .posted-date a:hover, .blogpost .author a:hover, .blogpost .postedin:hover  a, .blogpost .postedin:hover, .blogpost .link:hover, .blogpost .status a:hover,
+
+.blogpostcategory .meta .written:hover a, .blogpostcategory .meta .comments:hover a, .blogpostcategory .meta .category:hover a, .wp-pagenavi a:active, .blogpost .datecomment a:hover ,
+
+.portfolio .catlinkhover, .portfolio .catlink:hover, .showpostpostcontent h1 a:hover, .datecomment a:hover, ul.tabs a:hover, ul.tabs a.current, 
+
+.menu li ul li:hover a, .menu li ul li:hover ul li a, .menu li ul li:hover ul li:hover a, .menu li ul li:hover ul li:hover ul li a , .menu li ul li:hover ul li:hover ul li:hover a,
+
+.menu > li.current-menu-item a strong, .menu > li.current-menu-ancestor a strong,.blogpostcategory h2 a:hover,  #wp-calendar a , .widgett a:hover, .widget ul li a:hover, .widget_categories li.current-cat a, .widget_categories li.current-cat,
+
+.portfolio #remove h2 a:hover, .portfolio #remove a.catlinkhover
+
+ {color:#eebf00 !important;}	
+
+.infotext span  {color:#eebf00;}	
+
+
+
+/* ***********************
+
+--------------------------------------
+
+------------ELEMENTS WITH MAIN FONT COLOR----------
+
+--------------------------------------
+
+*********************** */
+
+.catlinkhover, .catlink a:hover, .homewrap #remove h2 a:hover, .homeBoxLeft h2, .homeRacent h3, .sidebar .widget h3, .blogpostcategory h2 a, .blogpostcategory h2 a:hover, .blogpostcategory h2, .blogpostcategory h2:hover,
+
+.blogpostcategory .posted-date, .blogpostcategory .textlink, .postcontent h1.title, #commentform #respond #commentform input#commentSubmit, #contactform .contactbutton .contact-button,
+
+.content ol.commentlist li .reply a, .item h3, .item2 h3, .item4 h3, .item h3 a, .item2 h3 a, .item4 h3 a, .item4 h3, .item4 h3 a, .portfolio #remove h2 a, .widget.contact.sidebar h3, .homewrap #remove h2 a.catlinkhover,
+
+.wp-pagenavi span.current, .wp-pagenavi a:hover, .item h3:hover, .item2 h3:hover, .item4 h3:hover, .item h3 a:hover, .item2 h3 a:hover, .item4 h3 a:hover, .simple .nivo-caption p, .homeBox .one_half:hover a,
+
+.homesingleleft h1, .showpostpostcontent h1 a, .showpostpostcontent h1 a:hover, .blogpostcategory h2 a:hover, .projectdetails h1
+
+{
+
+	color:#1e1e20 !important;text-shadow:0 1px 0 rgba(255,255,255,0.5);}
+
+
+
+
+
+/* ***********************
+
+--------------------------------------
+
+------------FONTS IN HEADING COLOR----------
+
+--------------------------------------
+
+*********************** */
+
+	
+
+.homewrap #remove h2 a, .homeRacent .mask h3{
+
+	color:#1e1e20!important;
+
+	
+
+}
+
+/* ***********************
+
+--------------------------------------
+
+------------HOVER BACKGROUND COLOR FOR PORTFOLIO CATEGORIES AND TABLE TABS----------
+
+--------------------------------------
+
+*********************** */
+
+
+
+ .portfolio .catlinkhover, .portfolio .catlink:hover, ul.tabs a:hover, ul.tabs a.current {background:#1e1e20 !important;}
+
+
+
+/* ***********************
+
+--------------------------------------
+
+------------CONTENT----------
+
+--------------------------------------
+
+*********************** */
+
+
+
+
+
+#headerwrap {background:  ;}
+
+
+
+.notification{background:#eebf00;
+
+}
+
+
+
+.infotextwrapnivo { background:  ; }
+
+#footer { background:#fff; }
+
+#footerbwrap { background:#fff  url(http://curvey.premiumcoding.com/wp-content/themes/fashy/images/bg/woodBackgroundPattern.jpg) repeat 0 0 }
+
+
+
+
+
+#contactform  .contactbutton .contact-button:hover {background-color: #eebf00; }
+
+#commentform #respond #commentform input#commentSubmit, #contactform .contactbutton .contact-button{background:#eebf00;  background-image: url(images/mainContentPattern.png); font-family: Oswald !important; }
+
+.image-gallery, .panes div, ul.tabs a, .block {border: 1px dotted #eebf00; }
+
+/* ***********************
+
+--------------------------------------
+
+------------MENU----------
+
+--------------------------------------
+
+*********************** */
+
+.menu li:hover ul {border: 1px solid #eebf00;  border-left: none;}
+
+.menu li ul li a{	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif !important; }
+
+.menu > li a {	font-family: Oswald !important; font-size:18px !important;  color:#1e1e20 !important;letter-spacing: normal;}
+
+.menu a span{ 	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; color:#aaa !important;letter-spacing: normal;}
+
+
+
+
+
+--------------------------------------
+
+------------BLOG----------
+
+-----------------------------------*/
+
+.blogpostcategory .title a{background:#eebf00; background-image: url(images/mainContentPattern.png); color:#1e1e20 !important;}	
+
+
+
+.blogpostcategory .posted-date{font-family: Oswald !important; background:#eebf00; background-image: url(images/mainContentPattern.png); text-transform:uppercase;}
+
+.singledefult .posted-date{font-family: "Helvetica Neue", Arial, Helvetica, sans-serif !important;}
+
+.blogpostcategory .textlink{font-family: Oswald !important;background-color:#eebf00; background-image: url(images/mainContentPattern.png);text-transform:uppercase;}
+
+.blogpostcategory h2 {line-height: 110% !important;}
+
+
+
+
+
+.blogpostcategory .textlink:hover{background-color:#eebf00;}
+
+.link-category .content {border: 1px dotted #eebf00;}
+
+.wp-pagenavi { font-family: Oswald !important;}
+
+.wp-pagenavi a {color:#24242b;}
+
+
+
+.widget_categories a, .widget_archive a, .widget_pages a, .widget_links a, .widget_recent_entries a, .widget_recent_comments a, .widget_meta a, .widget_nav_menu a, .widget_rss a {color:#24242b;}
+
+.wttitle a {color:#24242b;}
+
+
+
+.content ol.commentlist li .comment-author .fn a {font-family: Oswald !important;color:#1e1e20 !important;}
+
+.content ol.commentlist li .reply a {font-family: Oswald !important;}
+
+#commentform #respond #commentform textarea:focus, #commentform #respond #commentform input:focus, #contactform  .commentfieldarea textarea:focus, #contactform  .commentfield input:focus { border: 1px solid #eebf00;}
+
+/* ***********************
+
+--------------------------------------
+
+------------Widget----------
+
+-----------------------------------*/	
+
+.related h4{	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif !important; }.widget_search form div {	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif !important;}.widgett a {	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif !important;}.widget_tag_cloud a{	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif !important;}
+
+
+
+
+
+
+
+/*
+
+-----------------------------------
+
+----------- FOOTER -----
+
+-----------------------------------*/
+
+
+
+/*
+
+-----------------------------------
+
+----------- Tabs & Shortcodes -----
+
+-----------------------------------*/
+
+ul.tabs a:hover, ul.tabs a.current {color:#1e1e20 !important;    border: 1px dotted #eebf00;}
+
+
+
+
+
